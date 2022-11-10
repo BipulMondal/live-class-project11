@@ -1,0 +1,241 @@
+.header{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.list-items {
+    margin-right: 0;
+}
+.list-item {
+    margin-right: 15px;
+    font-size: 12px;
+}
+.active-item {
+    height: 25px;
+    width: 100px;
+    margin-top: 24px;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 0;
+}
+/* -- all text part -- */
+.Text {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.Text h1 {
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.Text p {
+    margin-left: 0px;
+    padding: 0px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #727272;
+}
+/* --  all image part -- */
+.images {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+#img {
+    height: 250px;
+    width: 250px;
+}
+/* ---  top-part--- */
+.top-part {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+/* --- all button */
+#btn {
+    height: 35px;
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #228bc9;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+}
+/* -- icon parts-- */
+.icons {
+    height: auto;
+    width: 100%;
+}
+.Text-4 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 20px;
+}
+.Text-4 h1 {
+    font-size: 50px;
+    width: 100%;
+    margin-left: 0px;
+}
+.Text-4 p {
+    width: 100%;
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.Text-4 br {
+    content: "";
+}
+
+/*--- card section  --*/
+.cards {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    padding-left: 60px;
+}
+.section-1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+.card {
+    height: auto;
+    width: 100%;
+    flex-direction: column;   
+    margin-left: 0;
+    padding: 10px 30px;
+}
+.card-logo {
+   width: 50%;
+}
+.card-head {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.card h3 {
+    margin: 10px 0px;
+}
+/*--  packages  --*/
+.pack {
+    margin-top: 20px;
+}
+.pack h2 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.packages {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 0px;
+}
+.package {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.package h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+/* --- our customer loves us --- */
+.text-5 {
+    margin-top: 50px;
+}
+.text-5 h1 {
+    font-size: 30px;
+}
+.text-5 p {
+    padding: 0px 30px;
+    font-size: 12px;
+}
+.text-5 br {
+    content: " ";
+}
+.part1 {
+   flex-direction: column;
+   padding: 0px 50px;
+}
+.part2 {
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-top: 0;
+ }
+ .custom-card {
+    height: auto;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0px;
+    margin-top: 10px;
+}
+/* -- register section -- */
+.register {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-6 {
+    width: 100%;
+    margin-left: 0;
+}
+.text-6 h1 {
+    font-size: 30px;
+}
+.text-6 p {
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.register button {
+    margin-top: 40px;
+    margin-right: 0px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+/*-- footer section --*/
+.footer {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 35px;
+    padding: 0px 50px;
+}
+.footer-logo {
+    height: auto;
+    width: 100%;
+}
